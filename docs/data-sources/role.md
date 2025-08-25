@@ -23,11 +23,11 @@ Defines the schema for an Entitle Role resource.
 
 - `allowed_durations` (Set of Number) As the admin, you can set different durations for the role, compared to the workflow linked to it.
 - `name` (String) The display name for Entitle Role.
-- `prerequisite_permissions` (Attributes List) Users granted any role from this role through a request will automatically receive the permissions to the roles selected below. (see [below for nested schema](#nestedatt--prerequisite_permissions))
+- `prerequisite_permissions` (Attributes List) Users granted any role from this role through a request will automatically receive the permissions to the roles selected below (see [below for nested schema](#nestedatt--prerequisite_permissions)).
 - `requestable` (Boolean) Indicates if the role is requestable (default: true)
 - `resource` (Attributes) The resource associated with the role. (see [below for nested schema](#nestedatt--resource))
-- `virtualized_role` (Attributes) In this field, you can assign an existing virtualized role to the new role. (see [below for nested schema](#nestedatt--virtualized_role))
-- `workflow` (Attributes) In this field, you can assign an existing workflow to the new role. (see [below for nested schema](#nestedatt--workflow))
+- `virtualized_role` (Attributes) In this field, you can assign an existing virtualized role to the new role (see [below for nested schema](#nestedatt--virtualized_role)).
+- `workflow` (Attributes) In this field, you can assign an existing workflow to the new role (see [below for nested schema](#nestedatt--workflow)).
 
 <a id="nestedatt--prerequisite_permissions"></a>
 ### Nested Schema for `prerequisite_permissions`
@@ -50,7 +50,7 @@ Required:
 Read-Only:
 
 - `name` (String) The name of the role.
-- `resource` (Attributes) The specific resource associated with the role. (see [below for nested schema](#nestedatt--prerequisite_permissions--role--resource))
+- `resource` (Attributes) The specific resource associated with the role (see [below for nested schema](#nestedatt--prerequisite_permissions--role--resource)).
 
 <a id="nestedatt--prerequisite_permissions--role--resource"></a>
 ### Nested Schema for `prerequisite_permissions.role.resource`
@@ -58,7 +58,7 @@ Read-Only:
 Read-Only:
 
 - `id` (String) The unique identifier of the resource.
-- `integration` (Attributes) The integration that the resource belongs to. (see [below for nested schema](#nestedatt--prerequisite_permissions--role--resource--integration))
+- `integration` (Attributes) The integration that the resource belongs to (see [below for nested schema](#nestedatt--prerequisite_permissions--role--resource--integration)).
 - `name` (String) The display name of the resource.
 
 <a id="nestedatt--prerequisite_permissions--role--resource--integration"></a>
@@ -66,7 +66,7 @@ Read-Only:
 
 Read-Only:
 
-- `application` (Attributes) The application that the integration is connected to. (see [below for nested schema](#nestedatt--prerequisite_permissions--role--resource--integration--application))
+- `application` (Attributes) The application that the integration is connected to (see [below for nested schema](#nestedatt--prerequisite_permissions--role--resource--integration--application)).
 - `id` (String) The identifier of the integration.
 - `name` (String) The display name of the integration.
 
