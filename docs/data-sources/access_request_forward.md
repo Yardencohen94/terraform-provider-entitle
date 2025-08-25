@@ -21,8 +21,8 @@ Entitle Access Request Forward allows delegating access request responsibilities
 
 ### Read-Only
 
-- `forwarder` (Attributes) Specifies the user who is delegating or forwarding their access request responsibilities. This user must have request permissions for the items being forwarded. (see [below for nested schema](#nestedatt--forwarder))
-- `target` (Attributes) Defines the user who will receive and be responsible for completing the forwarded access request tasks. This user will temporarily assume the request responsibilities for the specified items. (see [below for nested schema](#nestedatt--target))
+- `forwarder` (Attributes) Specifies the user who is delegating or forwarding their access request responsibilities. This user must have requested permissions for the items being forwarded (see [below for nested schema](#nestedatt--forwarder)).
+- `target` (Attributes) Defines the user who will receive and be responsible for completing the forwarded access request tasks. This user will temporarily assume the request responsibilities for the specified items (see [below for nested schema](#nestedatt--target)).
 
 <a id="nestedatt--forwarder"></a>
 ### Nested Schema for `forwarder`
