@@ -21,8 +21,8 @@ Entitle Access Review Forward allows delegating access review responsibilities t
 
 ### Read-Only
 
-- `forwarder` (Attributes) Specifies the user who is delegating or forwarding their access review responsibilities. This user must have review permissions for the items being forwarded. (see [below for nested schema](#nestedatt--forwarder))
-- `target` (Attributes) Defines the user who will receive and be responsible for completing the forwarded access review tasks. This user will temporarily assume the review responsibilities for the specified items. (see [below for nested schema](#nestedatt--target))
+- `forwarder` (Attributes) Specifies the user who is delegating or forwarding their access review responsibilities. This user must have review permissions for the items being forwarded (see [below for nested schema](#nestedatt--forwarder)).
+- `target` (Attributes) Defines the user who will receive and be responsible for completing the forwarded access review tasks. This user will temporarily assume the review responsibilities for the specified items (see [below for nested schema](#nestedatt--target)).
 
 <a id="nestedatt--forwarder"></a>
 ### Nested Schema for `forwarder`
