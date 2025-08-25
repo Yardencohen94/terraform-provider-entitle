@@ -3,12 +3,12 @@
 page_title: "entitle_agent_token Data Source - terraform-provider-entitle"
 subcategory: ""
 description: |-
-  Entitle AgentToken represents a token used by an agent to authenticate or perform specific operations within the Entitle system.Read more about agents https://docs.beyondtrust.com/entitle/docs/entitle-agent.
+  Entitle AgentToken represents a token used by an agent to authenticate or perform specific operations within the Entitle system. Read more about agents https://docs.beyondtrust.com/entitle/docs/entitle-agent.
 ---
 
 # entitle_agent_token (Data Source)
 
-Entitle AgentToken represents a token used by an agent to authenticate or perform specific operations within the Entitle system.[Read more about agents](https://docs.beyondtrust.com/entitle/docs/entitle-agent).
+Entitle AgentToken represents a token used by an agent to authenticate or perform specific operations within the Entitle system [Read more about agents](https://docs.beyondtrust.com/entitle/docs/entitle-agent).
 
 
 
